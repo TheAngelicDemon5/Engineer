@@ -1,1 +1,10 @@
-
+git init
+git add README.md
+git commit -m "Initial commit with project description in README file."
+git branch feature/auth
+git checkout feature/auth
+git add README.md
+git commit -m "Added information about auth feature development to README."
+git checkout main
+git checkout master
+git merge feature/auth
